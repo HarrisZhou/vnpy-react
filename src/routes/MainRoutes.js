@@ -16,6 +16,7 @@ const Order = Loadable(lazy(() => import('pages/components/Order')));
 const Subscribe = Loadable(lazy(() => import('pages/components/Subscribe')));
 const Websocket = Loadable(lazy(() => import('pages/components/WebSocketConnection')));
 const Color = Loadable(lazy(() => import('pages/components/Color')));
+const BackTesting = Loadable(lazy(() => import('pages/components/BackTesting')));
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -60,6 +61,10 @@ const MainRoutes = {
         {
             path: 'websocket',
             element: <Websocket />
+        },
+        {
+            path: 'backtesting',
+            element: <BackTesting />
         }
     ]
 };

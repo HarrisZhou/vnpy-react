@@ -83,6 +83,13 @@ const utilities = {
             url: '/websocket',
             icon: icons.FontSizeOutlined
         },
+              {
+            id: 'util-backtesting',
+            title: 'Backtesting',
+            type: 'item',
+            url: '/backtesting',
+            icon: icons.FontSizeOutlined
+        },
     ]
 };
 
